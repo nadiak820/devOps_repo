@@ -1,5 +1,6 @@
 ---
-- hosts: webservers
+- hosts: ec2servers
+  remote_user: root
   gather_facts: yes
 
   tasks:
